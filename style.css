@@ -1,0 +1,46 @@
+.jumbotron {
+    height: 100vh;
+    background-image: url(./photos/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg);
+    background-size: 100% 100%;
+    background-color:#00000080;
+}
+
+.center-jumbo {
+    text-align: center;
+} 
+
+.opacity {
+    background: rgba(255, 255, 255, 0.2);
+    padding-bottom: 1.5%;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.opacity h1, .opacity h2, .opacity p {
+    font-weight: bold;
+}
+
+.card {
+    /* max-height: 50em; */
+    max-width: 30em;
+}
+
+.card-columns {
+    height: auto;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.card-img-overlay {
+    background: rgba(0, 0, 0, 0.308);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 360px) {
+    .jumbotron h1 {
+      font-size: 2em;
+    }
+  }

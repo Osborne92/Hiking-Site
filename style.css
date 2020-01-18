@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(0, 10, 0);
+}
+
 .jumbotron img {
     flex-shrink: 0;
     min-width: 100%;
@@ -29,7 +33,6 @@
 }
 
 .card {
-    /* max-height: 50em; */
     max-width: 30em;
 }
 
@@ -40,12 +43,21 @@
 }
 
 .Smartphone {
-    max-height: 100em; 
-    max-width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
-.smartphone_container {
-    width: 95%;
+.card-size {
+    max-height: 90vh;
+}
+
+.text-width {
+    width: 45%;
+}
+
+.text-center {
+    margin: 0 auto;
+    padding: 8% 0;
 }
 
 .card-img-overlay {
